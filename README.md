@@ -8,16 +8,16 @@
 > yarn install
 ```
 
-## Create A new Function
+### Create A new Function
 ```sls create function -f myFunction --handler functions/myFunction.handler```
 
-## Test
+### Test
 ```sls invoke test```
 
-## Invoke Locally
+### Invoke Locally
 ```sls webpack invoke -f funcName```
 
-## Invoke on AWS
+### Invoke on AWS
 ```sls invoke -f funcName```
 
 -----------------------------------------------------------------------------

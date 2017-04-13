@@ -1,5 +1,4 @@
 # Lemando Serverless Boilerplate
-### Forked from https://github.com/SC5/sc5-serverless-boilerplate
 
 ### Install
 ```
@@ -21,6 +20,7 @@
 ```sls invoke -f funcName```
 
 -----------------------------------------------------------------------------
+Forked from https://github.com/SC5/sc5-serverless-boilerplate
 sc5-serverless-boilerplate is a project template for new serverless services. Contents of the template:
 * plugin [serverless-mocha-plugin](https://github.com/SC5/serverless-mocha-plugin): enable test driven development using mocha, creation of functions from command line
 * plugin [serverless-offline] (https://github.com/dherault/serverless-offline): enable endpoint create from cli
@@ -49,15 +49,10 @@ and with Serverless Framework v1.2 - v1.4
 > npm install
 ```
 
-## TODO
-
-Please see project GitHub [issue tracker](https://github.com/SC5/sc5-serverless-boilerplate/issues).
-
 ## Release History
 
 * 2016/11/02 - v1.0.0 - Initial version for Serverless 1.0
 
 ## License
 
-Copyright (c) 2016 [SC5](http://sc5.io/), licensed for users and contributors under MIT license.
-https://github.com/sc5/sc5-serverless-boilerplate/blob/master/LICENSE-MIT
+Copyright (c) 2017 [Lemando](http://lemando.com/), licensed for users and contributors under MIT license.

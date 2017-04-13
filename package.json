@@ -6,16 +6,18 @@
     "serverless",
     "aws"
   ],
-  "author": "Mikael Puittinen",
-  "contributors": [
-    "Eetu Tuomala"
-  ],
+  "author": "Charles Zivko",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/SC5/sc5-serverless-boilerplate.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "api-gateway-auth-plugin": "git+ssh://git@gitlab.com/lemando/api-gateway-auth-serverless-plugin.git",
+    "bugsnag": "^1.9.0",
+    "cuid": "^1.3.8",
+    "dotenv": "^2.0.0"
+  },
   "devDependencies": {
     "aws-sdk": "^2.7.10",
     "copy-webpack-plugin": "^3.0.1",

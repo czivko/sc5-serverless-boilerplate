@@ -1,5 +1,18 @@
-# SC5 Serverless Boilerplate
+# Lemando Serverless Boilerplate
+### Forked from https://github.com/SC5/sc5-serverless-boilerplate
 
+### Install
+```
+> sls install -u https://github.com/czivko/sc5-serverless-boilerplate -n myservicename
+> cd myservicename
+> yarn install
+```
+
+## Create A new Function
+```sls create function -f myFunction --handler functions/myFunction.handler```
+
+
+-----------------------------------------------------------------------------
 sc5-serverless-boilerplate is a project template for new serverless services. Contents of the template:
 * plugin [serverless-mocha-plugin](https://github.com/SC5/serverless-mocha-plugin): enable test driven development using mocha, creation of functions from command line
 * plugin [serverless-offline] (https://github.com/dherault/serverless-offline): enable endpoint create from cli

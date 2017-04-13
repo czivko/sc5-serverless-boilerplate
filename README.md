@@ -11,6 +11,14 @@
 ## Create A new Function
 ```sls create function -f myFunction --handler functions/myFunction.handler```
 
+## Test
+```sls invoke test```
+
+## Invoke Locally
+```sls webpack invoke -f funcName```
+
+## Invoke on AWS
+```sls invoke -f funcName```
 
 -----------------------------------------------------------------------------
 sc5-serverless-boilerplate is a project template for new serverless services. Contents of the template:

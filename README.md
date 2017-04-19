@@ -2,9 +2,12 @@
 
 ### Install
 ```
-> sls install -u https://github.com/czivko/sc5-serverless-boilerplate -n myservicename
-> cd myservicename
+> sls install -u https://github.com/czivko/sc5-serverless-boilerplate -n myservice-name
+> cd myservice-name
 > yarn install
+> git init && git add . && git commit -m 'init commit'
+>
+> git
 ```
 
 ### Create A new Function

@@ -7,6 +7,8 @@ provider:
   runtime: nodejs6.10
   region: us-west-2
   memorySize: 512
+  stage: ${opt:stage, self:custom.defaultStage}
+  profile: ${self:custom.profiles.${self:provider.stage}}
   environment:
     SERVERLESS_STAGE: ${opt:stage, self:provider.stage}
     SERVERLESS_PROJECT: ${self:service}
@@ -38,6 +40,7 @@ custom:
   serverless-mocha-plugin:
     functionTemplate: templates/function.ejs
   webpackIncludeModules: true
+  defaultStage: dev
   profiles:
     dev: default
     prod: lemando-prod-serverless-admin

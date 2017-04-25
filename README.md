@@ -19,8 +19,14 @@
 ### Invoke Locally
 ```sls webpack invoke -f funcName```
 
+### Invoke Deploy
+```sls deploy```
+
 ### Invoke on AWS
 ```sls invoke -f funcName```
+
+### Deploy to production
+`sls deploy -s prod`
 
 -----------------------------------------------------------------------------
 

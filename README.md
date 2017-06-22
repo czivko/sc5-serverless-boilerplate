@@ -19,6 +19,9 @@
 ### Invoke Locally
 ```sls webpack invoke -f funcName```
 
+### Run Server Locally
+```sls webpack serve```
+
 ### Invoke Deploy
 ```sls deploy```
 
